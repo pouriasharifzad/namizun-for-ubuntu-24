@@ -11,7 +11,8 @@ setup(
     install_requires=[
         'colored~=1.4.4',
         'pyfiglet~=0.8.post1',
-        'prettytable~=3.5.0'
+        'prettytable~=3.5.0',
+        'setuptools'  # اضافه کردن setuptools
     ],
     py_modules=[
         'display',
